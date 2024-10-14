@@ -1,0 +1,17 @@
+C:\Users\souri\Downloads\lottery\lottery\src\main\java\com\lottery\system\controller\TicketController.java
+C:\Users\souri\Downloads\lottery\lottery\src\main\java\com\lottery\system\dto\TicketRequest.java
+C:\Users\souri\Downloads\lottery\lottery\src\main\java\com\lottery\system\exception\GlobalExceptionHandler.java
+C:\Users\souri\Downloads\lottery\lottery\src\main\java\com\lottery\system\exception\TicketNotFoundException.java
+C:\Users\souri\Downloads\lottery\lottery\src\main\java\com\lottery\system\LotterySystemApplication.java
+C:\Users\souri\Downloads\lottery\lottery\src\main\java\com\lottery\system\model\Line.java
+C:\Users\souri\Downloads\lottery\lottery\src\main\java\com\lottery\system\model\Ticket.java
+C:\Users\souri\Downloads\lottery\lottery\src\main\java\com\lottery\system\repository\TicketRepository.java
+C:\Users\souri\Downloads\lottery\lottery\src\main\java\com\lottery\system\security\SecurityConfig.java
+C:\Users\souri\Downloads\lottery\lottery\src\main\java\com\lottery\system\service\TicketService.java
+C:\Users\souri\Downloads\lottery\lottery\src\main\java\com\lottery\system\util\ResultCalculator.java
+C:\Users\souri\Downloads\lottery\lottery\src\main\java\com\lottery\system\util\resultStrategy\impl\AllSameStrategy.java
+C:\Users\souri\Downloads\lottery\lottery\src\main\java\com\lottery\system\util\resultStrategy\impl\DefaultStrategy.java
+C:\Users\souri\Downloads\lottery\lottery\src\main\java\com\lottery\system\util\resultStrategy\impl\FirstDifferentStrategy.java
+C:\Users\souri\Downloads\lottery\lottery\src\main\java\com\lottery\system\util\resultStrategy\impl\SumTwoStrategy.java
+C:\Users\souri\Downloads\lottery\lottery\src\main\java\com\lottery\system\util\resultStrategy\ResultContext.java
+C:\Users\souri\Downloads\lottery\lottery\src\main\java\com\lottery\system\util\resultStrategy\ResultStrategy.java

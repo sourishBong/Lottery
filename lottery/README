@@ -1,0 +1,52 @@
+# Lottery System
+
+A simple REST interface for a lottery system.
+
+## Description
+
+This project provides a RESTful API for a simple lottery system. It allows users to create tickets, amend them, check their status, and view all tickets.
+
+## Prerequisites
+
+- Java 17 or higher
+- Maven 3.6.0 or higher
+
+### Clone the repository
+-Unzip the application
+- Open the application in any IDE to run the application.
+- Do an mvn clean install
+- To Access H2 Console
+  - http://localhost:8080/h2-console
+  - Since this is secured with Spring Security browser will prompt to give user and password
+    - User -     user
+    - Password - password
+  -JDBC URL - jdbc:h2:mem:testdb
+  -H2 Username - sa
+  -H2 Password-  password
+- API endpoints
+  -Create Ticket
+    - Endpoint - /ticket
+    - Method - POST
+    - Headers - Authorization: Basic dXNlcjpwYXNzd29yZA==
+    - Body - {
+                 "numberOfLines": 5
+             }
+  -Amend Ticket
+    - Endpoint - /ticket/{id}
+    - Method - PUT
+    - Headers - Authorization: Basic dXNlcjpwYXNzd29yZA==
+    - Body - {
+                 "numberOfLines": 3
+             }
+  -Check Status
+    -Endpoint - /status/{id}
+    -Method - PUT
+    -Headers - Authorization: Basic dXNlcjpwYXNzd29yZA==
+  -Get All Tickets
+    -Endpoint - /ticket
+    -Method - GET
+    -Headers - Authorization: Basic dXNlcjpwYXNzd29yZA==
+  -Get Ticket By Id
+    -Endpoint - /ticket/{id}
+    -Method - GET
+    -Headers - Authorization: Basic dXNlcjpwYXNzd29yZA==

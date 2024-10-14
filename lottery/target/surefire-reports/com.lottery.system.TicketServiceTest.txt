@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: com.lottery.system.TicketServiceTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.048 s <<< FAILURE! -- in com.lottery.system.TicketServiceTest
+com.lottery.system.TicketServiceTest.testCreateTicket -- Time elapsed: 0.020 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because the return value of "com.lottery.system.model.Ticket.getLines()" is null
+	at com.lottery.system.TicketServiceTest.testCreateTicket(TicketServiceTest.java:41)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.lottery.system.TicketServiceTest.testAmendTicket -- Time elapsed: 0 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.List.addAll(java.util.Collection)" because the return value of "com.lottery.system.model.Ticket.getLines()" is null
+	at com.lottery.system.service.TicketService.amendTicket(TicketService.java:43)
+	at com.lottery.system.TicketServiceTest.testAmendTicket(TicketServiceTest.java:81)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.lottery.system.TicketServiceTest.testCheckStatus -- Time elapsed: 0.016 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.List.sort(java.util.Comparator)" because the return value of "com.lottery.system.model.Ticket.getLines()" is null
+	at com.lottery.system.service.TicketService.checkStatus(TicketService.java:50)
+	at com.lottery.system.TicketServiceTest.testCheckStatus(TicketServiceTest.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
